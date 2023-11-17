@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML&CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      header,
+      footer {
+        border-bottom: 2px solid;
+        padding: 1em;
+        text-align: center;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      main {
+        padding: 1em;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        border: 2px solid;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center">
+              Ngô Thị Toan
+              <br />
+              AT160352
+              <br />
+              <img
+                style="height: 90px; width: 70px"
+                src="./anh.PNG"
+                alt="Anh"
+              />
+            </th>
+            <th>
+              <div style="display: flex; justify-content: center">
+                <img
+                  src="./b.jpg"
+                  alt="Banner"
+                  style="max-width: 85%; height: 70%; width: 100%"
+                />
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr></tr>
+
+          <tr>
+            <th style="text-align: center">
+              <a
+                style="color: black; text-decoration: none"
+                href="../2_1/example.html"
+                >1.7.1. Bài tập ví dụ mẫu trong bài giảng</a
+              ><br /><br /><a
+                style="color: black; text-decoration: none"
+                href="../2_2/information.html"
+                >1.7.2. Giới thiệu thông tin cá nhân</a
+              ><br /><br />
+              <a
+                style="color: black; text-decoration: none"
+                href="../2_3/Score.html"
+                >1.7.3. Bảng điểm cá nhân</a
+              ><br /><br />
+            </th>
+            <th>
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng điểm cá nhân</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <ul class="head">
+            <li class="headL"><img src="./KMA.PNG" alt="" style="height: 90px; width: 80;"></li>
+        </ul>
+        <ul class="head" style="text-transform: uppercase;">
+            <li class="headL" style="text-align: center;">bộ giáo dục & đào tạo</li>
+            <li class="headL"><b>Học Viện Kĩ Thuật Mật Mã</b></li>
+        <b><hr></b>
+        </ul>
+        <ul class="head">
+            <li class="headR" style="text-transform: uppercase;"><b>Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam</b></li>
+            <li class="headR" style="text-align: center;"><b>Độc lập - Tự do - Hạnh phúc</b></li>
+            <b><hr></b>
+        </ul>
+    </div>
+
+    <div class="cent">
+        <h1 class="cent1">Bảng điểm học tập</h1>
+        <p>(Theo QĐ công nhận TN số 2345/QĐ-ĐHĐN ngày 08/03/2011)</p>
+    </div>
+    
+    <div class="menu">
+        
+        <ul class="detail">
+            <li class="dL">Họ và tên:   <b style="text-transform: uppercase;">Ngô Thị Toan</b></li>
+            <li class="dL">Ngày sinh:   <b>17/12/2001</b></li>
+            <li class="dL">Cấp đào tạo: <b>ĐH</b></li>
+            <li class="dL">Ngành học:   <b>An toàn thông tin</b></li>
+        </ul>
+        <ul class="detail">
+            <li class="dR"><p>          </p></li>
+            <li class="dR">Nơi sinh:    <b>Thái Bình</b></li>
+            <li class="dR">Hệ đào tạo:  <b>Chính quy</b></li>
+            <li class="dR">Khoá học:    <b>2019-2024</b></li>
+        </ul>
+
+    </div>
+    <div class="main">
+        <h2 class="cent">KẾT QUẢ HỌC TẬP</h2>
+        <table class="table" border="1"> 
+            <tr>
+                <th class="cent" colspan="6">Năm học 2022 - 2023</th>
+            </tr>
+            <tr class="title center">
+                <td>STT</td>
+                <td>Tên học phần</td>
+                <td>Học kỳ</td>
+                <td>Đvht</td>
+                <td>ĐHP L1</td>
+                <td>ĐHP</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="left">Toán A1</td>
+                <td>1</td>
+                <td>6</td>
+                <td></td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="left">Toán A2</td>
+                <td>1</td>
+                <td>4</td>
+                <td></td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="left">Chủ nghĩa xã hội</td>
+                <td>1</td>
+                <td>2</td>
+                <td></td>
+                <td>5.5</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="left">Tiếng anh 1</td>
+                <td>1</td>
+                <td>4</td>
+                <td></td>
+                <td>Đạt</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="left">Tiếng anh 2</td>
+                <td>1</td>
+                <td>5</td>
+                <td></td>
+                <td>5.8</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="left">Giáo dục thể chất 1</td>
+                <td>1</td>
+                <td>2</td>
+                <td></td>
+                <td>6.8</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="left">Lịch sử đảng</td>
+                <td>1</td>
+                <td>3</td>
+                <td></td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="left">Kinh tế chính trị</td>
+                <td>2</td>
+                <td>4</td>
+                <td></td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="left">Giáo dục thể chất 2</td>
+                <td>2</td>
+                <td>2</td>
+                <td></td>
+                <td>7.2</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="left">Anh văn chuyên ngành</td>
+                <td>2</td>
+                <td>4</td>
+                <td></td>
+                <td>7.7</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td class="left">Cơ sở lý thuyết truyền tin</td>
+                <td>1</td>
+                <td>4</td>
+                <td></td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td class="left">Khai thác lỗ hổng phần mềm</td>
+                <td>2</td>
+                <td>4</td>
+                <td>4.7</td>
+                <td>6.2</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="left">Hệ quản trị CSDL</td>
+                <td>2</td>
+                <td>3</td>
+                <td></td>
+                <td>5.8</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td class="left">Mã độc</td>
+                <td>2</td>
+                <td>4</td>
+                <td></td>
+                <td>7.2</td>
+            </tr>
+            <tr>
+                <th colspan="5">Điểm trung bình chung cả năm</th>
+                <th colspan="1">7.1</th>
+            </tr>
+        </table>
+        <br>
+        <table class="table" border="1"> 
+            <tr>
+                <th class="cent" colspan="6">Năm học 2023-2024</th>
+            </tr>
+            <tr class="title center">
+                <td>STT</td>
+                <td class="left">Tên học phần</td>
+                <td>Học kỳ</td>
+                <td>Đvht</td>
+                <td>ĐHP L1</td>
+                <td>ĐHP</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="left">Công nghệ web an toàn</td>
+                <td>3</td>
+                <td>3</td>
+                <td></td>
+                <td>5.7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="left">Điều tra số</td>
+                <td>3</td>
+                <td>2</td>
+                <td></td>
+                <td>6.7</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="left">Giao thức an toàn mạng</td>
+                <td>3</td>
+                <td>5</td>
+                <td></td>
+                <td>6.7</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="left">Chứng thực điện tử</td>
+                <td>3</td>
+                <td>8</td>
+                <td></td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="left">phân tích thiết kế hệ thống thông tin</td>
+                <td>3</td>
+                <td>2</td>
+                <td></td>
+                <td>6.0</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: center">
+              Bản quyền © 2023 - Ngô Thị Toan
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

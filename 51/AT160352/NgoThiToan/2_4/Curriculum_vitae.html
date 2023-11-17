@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML&CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      header,
+      footer {
+        border-bottom: 2px solid;
+        padding: 1em;
+        text-align: center;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      main {
+        padding: 1em;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        border: 2px solid;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align: center">
+              Ngô Thị Toan
+              <br />
+              AT160352
+              <br />
+              <img
+                style="height: 90px; width: 70px"
+                src="./anh.PNG"
+                alt="Anh"
+              />
+            </th>
+            <th>
+              <div style="display: flex; justify-content: center">
+                <img
+                  src="./b.jpg"
+                  alt="Banner"
+                  style="max-width: 85%; height: 70%; width: 100%"
+                />
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr></tr>
+
+          <tr>
+            <th style="text-align: center">
+              <a
+                style="color: black; text-decoration: none"
+                href="../2_1/example.html"
+                >1.7.1. Bài tập ví dụ mẫu trong bài giảng</a
+              ><br /><br /><a
+                style="color: black; text-decoration: none"
+                href="../2_2/information.html"
+                >1.7.2. Giới thiệu thông tin cá nhân</a
+              ><br /><br />
+              <a
+                style="color: black; text-decoration: none"
+                href="../2_3/Score.html"
+                >1.7.3. Bảng điểm cá nhân</a
+              ><br /><br />
+              <a
+                style="color: black; text-decoration: none"
+                href="../2_4/Curriculum_vitae.html"
+                >1.7.4. Lí lịch cá nhân</a
+              ><br /><br />
+            </th>
+            <th>
+              <!DOCTYPE html>
+              <html lang="en">
+                <head>
+                  <meta charset="UTF-8" />
+                  <title>Sơ yếu lý lịch</title>
+                  <link rel="stylesheet" href="./style.css" />
+                  <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+                  />
+                </head>
+
+                <body>
+                  <div class="container">
+                    <div class="head">
+                      <div class="avatar"></div>
+                      <div class="head-content">
+                        <div>
+                          <div class="name">Ngô Thị Toan</div>
+                          <div>Lập trình viên</div>
+                        </div>
+                        <div class="about">
+                          Áp dụng những kinh nghiệm về kỹ năng về Java,HTML,
+                          CSS, SQL để trở thành một nhân viên lập trình chuyên
+                          nghiệp, mang đến những trang web thân thiện với người
+                          dùng. Từ đó chung tay xây dựng các trang Web ứng dụng
+                          cao cho Công ty.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-content">
+                      <div class="container-content-left">
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i
+                                class="fa fa-graduation-cap"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                            <div class="title">Học vấn</div>
+                          </div>
+                          <div class="content-decription">
+                            <div class="dot"></div>
+                            <div class="">
+                              <span class="content-decription-title">
+                                An toàn thông tin
+                              </span>
+                              <p>Học viện Kỹ thuật mật mã</p>
+                              <p>Tốt nghiệp loại Khá, điểm trung bình 7.0</p>
+                            </div>
+                          </div>
+                        </div>
+                        <br />
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            </div>
+                            <div class="title">Kinh Nghiệm làm việc</div>
+                          </div>
+                          <div class="content-decription">
+                            <div class="dot"></div>
+                            <div class="">
+                              <span class="content-decription-title">
+                                Công ty EVNICT | 2/2023 – hiện tại
+                              </span>
+                              <p>
+                                - Lập trình Java backend hệ thống Phần mềm An
+                                toàn SMIS
+                              </p>
+                              <p>
+                                Hiệu chỉnh, tăng cường an ninh bảo mật cho 1 số
+                                phân hệ trong hệ thống.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="content-decription">
+                            <div class="dot"></div>
+                            <div>
+                              <span class="content-decription-title">
+                                Công cổ phần NCCPLUS | 9/2022 – 1/2023
+                              </span>
+                              <p>
+                                - Được đào tạo các kiến thức về Java Spring
+                                Boot, SQL...
+                              </p>
+
+                              <p>- Nắm được quy trình xây dựng phần mềm</p>
+                              <p>- Xây dựng project cá nhân</p>
+                            </div>
+                          </div>
+                        </div>
+                        <br />
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i
+                                class="fa fa-paper-plane"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                            <div class="title">Hoạt động</div>
+                          </div>
+                          <div class="content-decription">
+                            <div class="dot"></div>
+                            <div class="">
+                              <p>Nhóm tinhg nguyện CVonline.com.vn</p>
+                              <p>Tình nguyện viên</p>
+                              <p>
+                                Tập hợp các món quà và phân phát tới người vô
+                                gia cư.
+                              </p>
+                              <p>
+                                - Chia sẻ, động viên họ vượt qua giai đoạn khoá
+                                khan, giúp họ có những suy nghĩ lạc quan.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <br />
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i class="fa fa-trophy" aria-hidden="true"></i>
+                            </div>
+                            <div class="title">Thành tích</div>
+                          </div>
+                          <div class="content-decription">
+                            <div class="dot"></div>
+                            <div class="">
+                              <p>CÔNG ty EVNICT</p>
+                              <p>Hoàn thành tốt nhiệm vụ|2023</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-content-right">
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="title">Liên Hệ</div>
+                          </div>
+                          <div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>0522700285</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>toan@gmail.com</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>http://toan.com.vn</div>
+                            </div>
+
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Cầu Giấy - Hà Nội</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>17/12/2001</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Nữ</div>
+                            </div>
+                          </div>
+                        </div>
+                        <br />
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i
+                                class="fa fa-google-wallet"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                            <div class="title">Kỹ năng</div>
+                          </div>
+                          <div style="margin-left: 48px">
+                            <div style="display: flex; align-items: center">
+                              <span style="width: 60%">Java</span>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio back"></div>
+                            </div>
+                            <div style="display: flex; align-items: center">
+                              <span style="width: 60%">Làm việc nhóm </span>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                            </div>
+                            <div style="display: flex; align-items: center">
+                              <span style="width: 60%">Thuyết trình</span>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                            </div>
+                            <div style="display: flex; align-items: center">
+                              <span style="width: 60%"> Tiếng Anh</span>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                            </div>
+                            <div style="display: flex; align-items: center">
+                              <span style="width: 60%"> Tiếng Nhật</span>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                              <div class="radio back"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <br />
+                        <div>
+                          <div class="title-container">
+                            <div class="title-icon">
+                              <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="title">Sở thích</div>
+                          </div>
+                          <div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Đọc sách</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Nấu ăn</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Cắm hoa</div>
+                            </div>
+
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Piano</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="dot"></div>
+                              <div>Du lịch</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>
+              </html>
+            </th>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: center">
+              Bản quyền © 2023 - Ngô Thị Toan
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

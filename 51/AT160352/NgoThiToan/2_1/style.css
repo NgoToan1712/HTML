@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  border-bottom: 2px solid #333;
+  padding: 1em;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  padding: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  border: 2px solid #333;
+  background-color: #f2f2f2;
+}

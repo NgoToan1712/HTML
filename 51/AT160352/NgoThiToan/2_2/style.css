@@ -1,0 +1,342 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+	padding: 30px 0;
+}
+
+.header-container .header-logo {
+    font-family:Times New Roman;
+	color: blue;
+}
+
+.header-container .row {
+	justify-content: space-between;
+}
+
+.header-container > header-logo {
+	float: left;
+}
+
+.header-container > header-nav > .nav {
+	display: inline-block;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: right;
+
+}
+
+.header-nav .nav > li {
+	font-weight: 700;
+	display: inline-block;
+}
+
+.header-nav .nav > li:hover {
+	opacity: 0.8;
+}
+
+.nav li {
+	position: relative;
+}
+
+.nav > li a{
+	color: black;
+	text-transform: uppercase;
+}
+
+.nav li a {
+	text-decoration: none;
+	line-height: 46px;
+	padding: 0 10px;
+}
+
+.body-container .col-left,
+.body-container .col-right {
+	padding: 30px 0;
+}
+
+.body-container .col-left {
+	border-right: 1px solid #ccc;
+}
+
+.body-container .col-left .list-interest {
+	margin-left: 15px;
+	line-height: 30px;
+}
+
+.col-left .button{
+	background: #3b3bdb;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 1 10 10px #333;
+    padding: 8px 16px;
+}
+
+.col-left .button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.body-container .col-right {
+	margin-left: 50px;
+}
+
+.col-right .hello p {
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.col-right .info img {
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+.col-right .info .body-info {
+	line-height: 30px;
+}
+
+.col-right .main-info {
+	line-height: 30px;
+}
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.row.no-gutters .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.c1{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.c2 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+
+.c2 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.c3{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+
+}
+
+
+
+
+/* >= Tablet */
+@media (min-width: 740px) {
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .m-0 {
+        display: none;
+    }
+
+
+    .m1,
+    .m2,
+    .m3,
+    .m4,
+     {
+        display: block;
+    }
+
+
+    .m1 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .m2 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+
+    .m3{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+
+    .m4 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .row.sm-gutter .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .l-0 {
+        display: none;
+    }
+
+
+    .l1,
+    .l2
+    {
+        display: block;
+    }
+
+
+    .l1 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+
+
+    .l2 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+    .l3{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+
+}
+
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        width: 644px;
+    }
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        width: 984px;
+    }
+
+    .wide .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .wide .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .wide .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .wide .row.sm-gutter .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wide .l-0 {
+        display: none;
+    }
+
+
+    .wide .l1,
+    .wide .l2,
+    .wide .l3,
+   {
+        display: block;
+    }
+
+
+
+    .wide .l1{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+
+    .wide .l2 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+    .wide .l3 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+
