@@ -118,3 +118,7 @@ background-color: Black;
     color: #fff;
     font-size: 20px;
 }
+#t{
+   display: flex;
+   justify-content: center;
+}

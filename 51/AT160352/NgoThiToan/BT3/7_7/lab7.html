@@ -72,58 +72,74 @@
 </div>
 <div id="content-right" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
   <!-- code -->
-  <table>
-    <tr>
-      <td valign="top">
-      <table cellspacing="0">
-        <tr>
-          <td class="portalModTd" onMouseOver="javascript:tdMouseOver(this);" onMouseOut="javascript:tdMouseOut(this);"  onclick="javascript:avoid(this);" title="Quản lý cán bộ (Đăng ký thông tin)
-  ">&raquo; Quản lý cán bộ (Đăng ký thông tin)
-  </td></tr>
-        <tr>
-          <td class="portalModTd" onMouseOver="javascript:tdMouseOver(this);" onMouseOut="javascript:tdMouseOut(this);" onclick="javascript:avoid(this);" title="Phân quyền">&raquo; Phân quyền</td></tr>
-        <tr>
-          <td class="portalModTd" onMouseOver="javascript:tdMouseOver(this);" onMouseOut="javascript:tdMouseOut(this);"  onclick="javascript:avoid(this);" title="Cổng thông tin đào tạo và người học
-  ">&raquo; Cổng thông tin đào tạo và người học
-  </td></tr>
-        <tr>
-          <td class="portalModTd" onMouseOver="javascript:tdMouseOver(this);" onMouseOut="javascript:tdMouseOut(this);"  onclick="javascript:avoid(this);" title="Quản lý văn bản và hồ sơ công việc
-  ">&raquo; Quản lý văn bản và hồ sơ công việc
-  </td></tr>
-          <tr>
-            <td class="portalModTd" onMouseOver="javascript:tdMouseOver(this);" onMouseOut="javascript:tdMouseOut(this);" onclick="javascript:avoid(this);" title="Hành chính công">&raquo; Hành chính công</td></tr>
-          <tr>
-            <td class="portalModTd" onMouseOver="javascript:tdMouseOver(this);" onMouseOut="javascript:tdMouseOut(this);"  onclick="javascript:avoid(this);" title="Hệ thống  thông tin báo cáo
-  ">&raquo; Hệ thống  thông tin báo cáo
-  </td></tr>
-        </table>
-      </td>
-      <td id="content" valign="top">
-      </td>
-    </table>
-    <script type="text/javascript">
-      sel_ = null;
-      function avoid(r) {
-        if (sel_ != null) {
-          sel_.className = "portalModTd";
-        }
-        sel_ = r;
-        sel_.className = "portalModTdSelected";
-        document.getElementById("content").innerHTML = sel_.innerHTML;
-      }
+  <!DOCTYPE html>
+<html lang="en">
   
-      function tdMouseOver(r) {
-        if (r != sel_)	{
-          r.className='portalModTdHover';
-        }
-      }
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+        <meta name="author" content="Codeconvey" />
+        
+        <!-- Off Canvas Menu CSS -->
+        <link rel="stylesheet" href="./style1.css">
+</head>
   
-      function tdMouseOut(r) {
-        if (r != sel_) {
-          r.className='portalModTd';
-        }
-      }
-    </script>
+<body>
+    <nav>
+        <ul>
+          <li tabindex="0" title="Quản lý cán bộ (Đăng ký thông tin)">
+            <a ><b>&raquo;</b> Quản lý cán bộ (Đăng ký thông tin)</a>
+            <span>&rarr;</span>
+            <div>
+              <h1><b>&raquo;</b> Quản lý cán bộ (Đăng ký thông tin)</h1>
+            </div>
+          </li>
+          <li tabindex="0" title="Phân quyền">
+            <a ><b>&raquo;</b> Phân quyền</a>
+            <span>&rarr;</span>
+            <div>
+              <h1><b>&raquo;</b> Phân quyền</h1>
+            </div>
+          </li>
+          <li tabindex="0" title="Cổng thông tin đào tạo và người học">
+            <a ><b>&raquo;</b> Cổng thông tin đào tạo và người học</a>
+            <span>&rarr;</span>
+            <div>
+              <h1><b>&raquo;</b> Cổng thông tin đào tạo và người học</h1>
+            </div>
+          </li>
+          <li tabindex="0" title="Quản lý văn bản và hồ sơ công việc">
+            <a ><b>&raquo;</b> Quản lý văn bản và hồ sơ công việc</a>
+            <span>&rarr;</span>
+            <div>
+              <h1><b>&raquo;</b> Quản lý văn bản và hồ sơ công việc</h1>
+            </div>
+          </li>
+          <li tabindex="0" title="Hành chính công">
+            <a ><b>&raquo;</b> Hành chính công</a>
+            <span>&rarr;</span>
+            <div>
+              <h1><b>&raquo;</b> Hành chính công</h1>
+            </div>
+          </li>
+          <li tabindex="0" title="Hệ thống thông tin báo cáo">
+            <a ><b>&raquo;</b> Hệ thống thông tin báo cáo</a>
+            <span>&rarr;</span>
+            <div>
+              <h1><b>&raquo;</b> Hệ thống thông tin báo cáo</h1>
+            </div>
+          </li>
+        </ul>  
+        <div>
+          <h1>Công Nghệ Web An Toàn L03</h1>
+        </div>
+      </nav>
+</body>
+  
+</html>
+    
 </div>
 </div>
 <div id="copyright">
